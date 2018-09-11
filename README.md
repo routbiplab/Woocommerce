@@ -11,9 +11,9 @@ Step 3: Activate the plugin.
     
     front-url/wp-json/wc/v1/customers?created_after=2018-04-20T10:42:35
     
-<h4>Rest Customer API by using after account updation date both for verson v1 and v2</h4>
+<h4>Rest Customer API by using after/before/exact account updation date both for verson v1 and v2</h4>
     
-    front-url/wp-json/wc/v1/customers?last_update_after=2018-05-24T10:42:35
+    front-url/wp-json/wc/v2/customers?filter[meta_key]=last_update&filter[meta_value]=2018-09-10T06:43:07&last_update={eq/after/before}
     
 <h4>Rest Product API by using after modified date both for verson v1 and v2</h4>
     
